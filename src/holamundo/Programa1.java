@@ -57,10 +57,28 @@ public class Programa1 {
                                                                 tabular*/
         
         
-        //int value4 = 4.2; //no funciona
-        //double floatPointing1 = 0.42;
-        //value4 = floatPointing1;
-        //System.out.println("floatPointing1 = " + floatPointing1); 
+//        int value4 = 4.2; //no funciona
+//        double floatPointing1 = 0.42;
+//        value4 = floatPointing1;
+//        System.out.println("floatPointing1 = " + floatPointing1); 
+        
+        
+        //conversión implícita
+        int y = 45;
+        double v = y;
+        System.out.println("v = " + v);
+        
+        //conversión explícita (casting)
+        double v1 = 4.5;
+        int y1 = (int) v1;
+        System.out.println("y1 = " + y1); //imprime el '4' (NO la parte decimal)
+        
+        
+        //ASCII. El '64' en ASCII es la '@'
+        byte h = 64;
+        char hh = (char) h;
+        System.out.println("h = " + h);
+        System.out.println("hh = " + hh);
         
         
         int first = 2;
@@ -156,7 +174,7 @@ public class Programa1 {
         System.out.println("Result: " + 2 + 3 + 5); //imprime 235 (NO suma)
         System.out.println("Result: " + 2 + 3 * 5); //imprime 215 (SÍ calcula)
         
-        
+         
         //bucle for
         for(int i = 0; i <= 10; i++){
             System.out.println("i = " + i);
@@ -182,10 +200,10 @@ public class Programa1 {
         } 
          
         
-        int r3 = 19;
-        int r4 = 5;
+        int r1 = 19;
+        int r2 = 5;
         
-        if(r3%r4 != 0){
+        if(r1%r2 != 0){
             System.out.println("El número es impar");
         }else{
             System.out.println("El número es par");
