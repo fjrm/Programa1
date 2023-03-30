@@ -6,11 +6,12 @@ import java.util.Scanner; /*dentro del paquete java.util, Scanner es una clase
 public class ServicioEcoNombre {
 
     public static void main(String[] args) {
-
-        //Lee la entrada del usuario y lo almacena en la variable scanner
-        Scanner consola = new Scanner(System.in); //para intoducir algo por consola (System.in)
-
         // Solicita el mensaje, de forma dinámica (NO estática como en 'Programa1.java')
+        
+        //Lee la entrada del usuario y lo almacena en la variable consola
+        Scanner consola = new Scanner(System.in); 
+
+        // Imprime el mensaje introducido por el usuario
         System.out.println("Introduce tu nombre: ");
 
         //Lee la cadena escrita por el usuario y lo asigna a la variable mensaje
@@ -19,7 +20,7 @@ public class ServicioEcoNombre {
         // Imprime el mensaje introducido por el usuario
         System.out.println("Tu nombre es: " + nombre);
         
-        // Solicita el mensaje, de forma dinámica (NO estática como en 'Programa1.java')
+        // Imprime el mensaje introducido por el usuario
         System.out.println("Introduce tus apellidos: ");
 
         //Lee la cadena escrita por el usuario y lo asigna a la variable mensaje
